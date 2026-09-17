@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Pure Poison — uma experiência olfativa marcante. Cadastre-se para receber novidades sobre a pré-venda.">
+  <title>PURE POISON — Pré-venda</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="topbar" id="top">
+    <a class="brand" href="#top" aria-label="Pure Poison">PURE<br><span>POISON</span></a>
+    <nav class="nav" aria-label="Navegação principal">
+      <a href="#essencia">Essência</a>
+      <a href="#experiencia">Experiência</a>
+      <a href="#pre-venda">Pré-venda</a>
+    </nav>
+    <a class="nav-cta" href="#pre-venda">QUERO SER AVISADO</a>
+    <button class="menu" aria-label="Abrir menu">☰</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img src="assets/images/hero-pure-poison.png" alt="Frasco Pure Poison entre flores brancas ao pôr do sol" class="hero-image">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow">UMA NOVA EXPERIÊNCIA</p>
+        <h1>PURE<br><em>POISON</em></h1>
+        <p class="hero-copy">Uma presença floral, luminosa e inesquecível.</p>
+        <a class="button" href="#pre-venda">ENTRAR NA PRÉ-VENDA <span>→</span></a>
+      </div>
+      <div class="scroll"> <span></span></div>
+    </section>
+
+    <section class="statement" id="essencia">
+      <div class="statement-inner">
+        <p class="eyebrow">A ESSÊNCIA</p>
+        <h2>Delicadeza que<br><em>deixa marca.</em></h2>
+        <p>
+          Pure Poison combina a luminosidade das flores brancas com uma assinatura
+          envolvente. Um contraste entre suavidade e intensidade, criado para
+          transformar presença em memória.
+        </p>
+      </div>
+    </section>
+
+    <section class="feature" id="experiencia">
+      <div class="feature-image-wrap">
+        <img src="assets/images/product-pure-poison.png" alt="Frasco Pure Poison em destaque" class="feature-image">
+      </div>
+      <div class="feature-copy">
+        <p class="eyebrow">O FRASCO</p>
+        <h2>Uma joia<br><em>em lilás.</em></h2>
+        <p>
+          Vidro translúcido, reflexos violeta e uma tampa profunda em tom vinho.
+          Cada detalhe foi pensado para fazer do frasco parte da experiência.
+        </p>
+        <div class="details">
+          <div><span>01</span><strong>Floral</strong><small>luminoso</small></div>
+          <div><span>02</span><strong>Elegante</strong><small>marcante</small></div>
+          <div><span>03</span><strong>Memorável</strong><small>envolvente</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="immersive">
+      <div class="immersive-content">
+        <p class="eyebrow">QUANDO A LUZ ENCONTRA A FLOR</p>
+        <h2>Seu próximo<br><em>ritual começa aqui.</em></h2>
+      </div>
+    </section>
+
+    <section class="capture" id="pre-venda">
+      <div class="capture-card">
+        <p class="eyebrow">PRÉ-VENDA • EM BREVE</p>
+        <h2>Seja a primeira<br>a saber.</h2>
+        <p>Cadastre seu e-mail e receba as novidades, a abertura da pré-venda e condições especiais.</p>
+
+        <form id="captureForm" class="capture-form">
+          <label for="email" class="sr-only">Seu melhor e-mail</label>
+          <input id="email" name="email" type="email" placeholder="Seu melhor e-mail" required autocomplete="email">
+          <button type="submit">QUERO SER AVISADO <span>→</span></button>
+        </form>
+        <p class="privacy">Ao cadastrar, você concorda em receber comunicações sobre o produto.</p>
+        <p id="formMessage" class="form-message" role="status" aria-live="polite"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-brand">PURE POISON</div>
+    <p>Uma experiência criada para permanecer.</p>
+    <a href="#top">VOLTAR AO TOPO ↑</a>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
